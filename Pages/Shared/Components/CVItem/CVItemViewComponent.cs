@@ -9,8 +9,15 @@ namespace Website_Bewerbung.Pages.Shared.Components.CVItem
 {
     public class CVItemViewComponent : ViewComponent
     {
-        public async Task<IViewComponentResult> InvokeAsync()
+
+        public string headerLeft;
+
+        public string HeaderLeft { get { return headerLeft; } }
+
+        public async Task<IViewComponentResult> InvokeAsync(string headerLeft)
         {
+            Console.Write(headerLeft);
+            this.headerLeft = headerLeft;
             return View("CVItem");
         }
     }
