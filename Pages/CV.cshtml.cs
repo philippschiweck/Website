@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Website_Bewerbung.Pages
 {
-    public class TestModel : PageModel
+    public class CVModel : PageModel
     {
         public void OnGet()
         {
