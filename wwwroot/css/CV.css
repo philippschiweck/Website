@@ -11,3 +11,7 @@ hr.small {
     border: 0 !important;
     border-bottom: 0.5px solid rgb(0, 38, 255, 0.4) !important;
 }
+
+.border-cv {
+    border-left: 1.5px solid rgb(0, 0, 0, 0.8) !important;
+}
